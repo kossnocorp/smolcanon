@@ -1,6 +1,7 @@
 [tools]
 ## Stack
 node = { version = "lts", postinstall = "corepack enable && node -v > .nvmrc" }
+pnpm = "latest"
 
 [settings]
 # Enable extra features

@@ -1,3 +1,6 @@
+> [!WARNING]
+> Smol Canon is now part of [js-fns](https://github.com/kossnocorp/js-fns) and published as [@js-fns/canon](https://www.npmjs.com/package/@js-fns/canon). Migrate to it for future updates.
+
 # Smol Canon
 
 Tiny JS values canonicalization for hashing.

@@ -1,7 +1,23 @@
 {
   "name": "smolcanon",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Tiny JS objects canonicalization for hashing",
+  "keywords": [
+    "canonicalization",
+    "hashing",
+    "serialization",
+    "tiny"
+  ],
+  "homepage": "https://github.com/kossnocorp/smolcanon#readme",
+  "bugs": {
+    "url": "https://github.com/kossnocorp/smolcanon/issues"
+  },
+  "license": "MIT",
+  "author": "Sasha Koss <koss@nocorp.me>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kossnocorp/smolcanon.git"
+  },
   "type": "module",
   "main": "index.cjs",
   "module": "index.js",
@@ -21,22 +37,6 @@
   "scripts": {
     "test": "vitest run"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kossnocorp/smolcanon.git"
-  },
-  "keywords": [
-    "tiny",
-    "hashing",
-    "canonicalization",
-    "serialization"
-  ],
-  "author": "Sasha Koss <koss@nocorp.me>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kossnocorp/smolcanon/issues"
-  },
-  "homepage": "https://github.com/kossnocorp/smolcanon#readme",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.16.4",
     "@babel/cli": "^7.28.3",
